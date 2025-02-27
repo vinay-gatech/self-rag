@@ -3,6 +3,8 @@
 ## Overview
 Self-RAG (Self-supervised Retrieval-Augmented Generation) enhances the performance of RAG models by integrating self-supervised learning techniques. This approach refines both the retrieval and generation components of RAG systems, allowing them to learn from unlabeled data and improve their contextual relevance.
 
+![Self-RAG](self-rag.png)
+
 ## Features
 - **Self-supervised learning**: Improves retrieval and generation without requiring labeled data.
 - **Retrieval-Augmented Generation (RAG)**: Leverages external knowledge sources for more accurate responses.

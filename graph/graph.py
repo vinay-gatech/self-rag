@@ -81,4 +81,4 @@ builder.add_conditional_edges(
 )
 
 graph   = builder.compile()
-graph.get_graph().draw_mermaid_png(output_file_path="corrective-rag.png")
+graph.get_graph().draw_mermaid_png(output_file_path="self-rag.png")
