@@ -22,7 +22,7 @@ def grade_documents(state: GraphState)->Dict[str, Any]:
 
     for d in documents:
         score       = retrieval_grader.invoke(
-            {"question":question, "document": documents}
+            {"question":question, "documents": documents}
         )
 
         if score.binary_score=="no":
